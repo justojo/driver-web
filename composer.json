@@ -14,9 +14,15 @@
             "email": "m.pociot@gmail.com"
         }
     ],
+    "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/justojo/driver-web"
+    }
+    ],
     "require": {
         "php": ">=7.0",
-        "botman/botman": "~3.0"
+        "botman/botman": "dev-master"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
